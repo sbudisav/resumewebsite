@@ -1,29 +1,3 @@
- <!-- <?php
-
-  if( file_exists($php_mail_form_library = '../lib/php-mail-form/php-mail-form.php' )) {
-    include( $php_mail_form_library );
-  } else {
-    die( 'Unable to load the PHP Mail Form Library!');
-  }
-
-  $d = new PHP_Mail_Form;
-  $d->ajax = true;
-
-  // Replace with your real receiving email address
-  $d->to = 'sbudisav@gmail.com';
-  $d->from_name = $_POST['name'];
-  $d->from_email = $_POST['email'];
-  $d->subject = $_POST['subject'];
-
-  $d->add_message( $_POST['name'], 'From');
-  $d->add_message( $_POST['email'], 'Email');
-  $d->add_message( $_POST['message'], 'Message', 10);
-
-  echo $d->send();
-?>
-
- -->
-
 
 <?php
 if(isset($_POST['email'])) {
