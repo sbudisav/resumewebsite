@@ -1,7 +1,7 @@
 "scripts": {
   "test": "make test",
   "start": "node index.js"
-}
+},
 
 {
   "name": "simon-resume",
