@@ -1,12 +1,11 @@
 
 {
-  "scripts": {
-    "start": "node main.js"
   },
   "name": "simon-resume",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "node main.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
