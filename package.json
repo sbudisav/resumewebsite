@@ -1,15 +1,15 @@
-
 {
   "name": "simon-resume",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node main.js",
+    "start": "node js/main.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
+    "server": "^1.0.18",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
